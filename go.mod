@@ -1,7 +1,7 @@
 module github.com/sean-TPE/go-netdicom
 
 require (
-	github.com/sean-TPE/go-dicom v0.0.0-20210331083933-03db3f51d165
+	github.com/grailbio/go-dicom v0.0.0-20190117035129-c30d9eaca591
 	github.com/stretchr/testify v1.2.2
 )
 
@@ -19,7 +19,7 @@ replace github.com/grailbio/bio => ../bio
 
 replace github.com/grailbio/go-dicom => ../go-dicom
 
-replace github.com/grailbio/go-netdicom => ../go-netdicom
+replace github.com/sean-TPE/go-netdicom => ../go-netdicom
 
 replace github.com/grailbio/hts => ../hts
 
